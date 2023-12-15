@@ -1,0 +1,27 @@
+export const scrapData = [
+    {
+        id: '1',
+        name: 'Paper',
+        description: 'Scrap paper refers to the maximum used news paper, book, Notebook and tissue paper.',
+        icon: 'IMG0002',
+        image: 'IMG0022',
+        products: [
+            { id: 'a1', name: 'News Paper', rate: 5 },
+            { id: 'a2', name: 'Book', rate: 8 },
+            { id: 'a3', name: 'Note Book', rate: 6 },
+            { id: 'a4', name: 'Tissue Paper', rate: 2 }
+        ]
+    },
+    {
+        id: '2',
+        name: 'Cardboard',
+        description:
+            'Cardboard scraps are of two quality one is Normal Cardboard used for packaging and another is Yellow Cardboard used as the binding for books etc.,',
+        icon: 'IMG0001',
+        image: 'IMG0011',
+        products: [
+            { id: 'b1', name: 'Normal Cardboard', rate: 12 },
+            { id: 'b2', name: 'Yellow Cardboard', rate: 2 }
+        ]
+    },
+    ];
